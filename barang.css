@@ -1,0 +1,360 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+background-image: url(../gambar/pexels-leticia-alvares-1805702-28084311.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+h1{
+   background-color: cadetblue;
+   border:2px solid black;
+   box-shadow: 1.5px 1.5px 1.5px 1.5px;
+  border-radius: 20px 20px;
+  padding:10px 10px;
+
+}
+.judul{
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    padding-top:20px;
+    color:rgb(49, 248, 255);
+    font-style: italic;
+}
+.navbar{
+    background-color:rgb(255, 255, 255);
+    padding:25px 20px;
+    display: flex;
+  justify-content: space-between;
+    height:auto;
+}
+nav ul{
+    display:flex;
+    list-style: none;
+    align-items: center;
+  
+   gap:45rem;
+   
+}
+nav ul li a{
+   
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color:rgb(33, 33, 33);
+   font-weight: 650;
+padding:7px 0;
+transition: all;
+transition-duration:350ms ;
+border-bottom:1px solid rgba(0, 0, 0, 0);
+}
+nav ul li a:hover{
+    color:red;
+    border-bottom:1px solid black;
+    border-color: red;
+    
+}
+
+
+h3{
+    text-align: center;
+    font-size:30px;
+    margin:0;
+    padding:25px;
+}
+
+.deskripsi{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top:80px;
+   color: #050a0b;
+text-align: center;
+font-family:serif
+}
+.borderr{
+   display: inline-block;
+   border: 5px solid burlywood;
+border-radius: 15px 15px;
+}
+a{
+    text-decoration: none;
+}
+.gallery{
+    padding:30em 0;
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content:center;
+    align-items: center;
+    margin:50px 0;
+}
+.items{
+   margin-top:500px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+   color:aqua;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sub-judul{
+     font-weight: bold;
+    font-size: 40px;
+   color:aqua;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    margin-bottom:15px;
+}
+.jarak{
+    margin-top:800px;
+}
+.about{
+     color: #050a0b;
+text-align: center;
+font-family:sans-serif;
+font-size: 28px;
+}
+.content{
+    width:20%;
+    margin:15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top:10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0, 0, 0, 0.20);
+    transition: 0.5s;
+    background:white;
+}
+.content:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.25);
+    transform: translate(0px, -10px);
+}
+img{
+    max-width:100%;
+    height:200px;
+    text-align: center;
+    margin:0 auto;
+    display: block;
+   
+}
+
+p{
+    padding:5px 5px;
+    text-align: center;
+    color:rgb(149, 136, 119);
+}
+h6{
+    font-size:25px;
+    margin:0;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:0px;
+}
+li{
+    padding-top:7px;
+}
+.fa{
+    font-size: 23px;
+    transition: 3s;
+    margin:3px;
+}
+.checked{
+    color:yellow;
+}
+.fa:hover{
+    transform: scale(1.3);
+    transition: 0.8s;
+}
+button{
+    text-align: center;
+    font-size: 22px;
+    width:100%;
+    padding:13px;
+    border:0;
+    outline: none;
+    cursor:pointer;
+    margin-top:5px;
+    border-radius:20px 20px;
+    
+    color:white;
+}
+.beli-1{
+    background:#2183a2;
+}
+.beli-2{
+    background:goldenrod;
+}
+.beli-3{
+    background:#050a0b;
+}
+.beli-4{
+    background:#f900e9;
+}
+.beli-5{
+    background:#bbff00;
+}
+.beli-6{
+    background:#ff0000;
+}
+
+.about{
+    font-size: auto;
+    text-align: center;
+font-weight: none;
+}
+.form{
+color: black;
+}
+.text{
+ display: flex;
+ display:inline-block;
+ justify-content: center;
+ align-items: center;
+ border-radius: 5px 5px;
+ background-color: gray;
+ border-style: none;
+text-align: center;
+}
+.container{
+    min-height: 40vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 20px;
+
+}
+.wrapper{
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+  font-size: 30px;
+    padding:25px ;
+}
+.textt{
+    margin-top: 20px ;
+    font-size: 30px;
+}
+.model-border{
+border-radius: 8px 8px;
+background-color: rgb(195, 175, 175);
+border:none;
+padding-top:20px;
+padding-right:70px;
+text-align: left;
+vertical-align: middle;
+}
+textarea{
+    resize:none;
+   flex:1;
+   padding:18px;
+   padding-bottom:80px;
+  
+}
+.input-box{
+    width:100px;
+    margin-bottom:10px;
+ 
+}
+
+.container-5{
+    display: flex;
+text-align: left;
+justify-content: center;
+margin-right:110px;
+
+
+}
+.kirim{
+   background-color: aqua;
+   color:white;
+width:30%;
+transition: all;
+transition-duration:350ms ;
+}
+.kirim:hover{
+background-color: red;
+color: #050a0b;
+
+}
+.container-beli{
+background-color: #2183a2;
+
+margin-top:250px;
+
+}
+.sudah-dibeli{
+    font-size: 40px;
+    font-weight: bold;
+    border:10px solid black;
+    border-radius: 10px 10px;
+}
+.follow{
+    margin-top:150px;
+}
+.sub-judul{
+   
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+
+@media(max-width:600px){
+    .content{
+        width:100%;
+        height:auto;
+
+    }
+   
+    .navbar{
+      flex-direction: column;
+      gap:10px;
+      width:100%;
+      height:auto;
+    
+    }
+    .judul{
+        font-size:30px ;
+        
+    }
+  .gallery{
+    margin-top:1000px;
+   
+  }
+  .input-box{
+    font-size: 20px;
+  }
+  .model-border{
+    font-size:20px;
+   
+  }
+  .about{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .kirim{
+    width:100%;
+    text-align: center;
+        display: flex;
+padding:15px 100%;
+justify-content: center;
+
+  }
+  .container-5{
+    margin-left:120px;
+    margin-bottom:20px;
+  }
+}
